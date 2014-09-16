@@ -1,0 +1,164 @@
+		- CMD COMMANDS -
+
+		-	C:\> cd xampp/htdocs
+		-	C:\xampp\htdocs> dir
+		-	C:\xampp\htdocs> cd tasklist
+		-	C:\xampp\htdocs\tasklist> php artisan
+		-	C:\xampp\htdocs\tasklist> php artisan generate:migration create_categorie_table --fields="name:string(100), description:text"
+		-	C:\xampp\htdocs\tasklist> php artisan migrate //de database aanmaken (pas doen als he helemaal correct is)
+		-	C:\xampp\htdocs\tasklist> php artisan migrate:rollback
+		-	C:\xampp\htdocs\tasklist> php artisan migrate:refresh
+		-	C:\xampp\htdocs\tasklist> composer dump-autoload
+		-	C:\xampp\htdocs\tasklist> php artisan generate:seed ..seedname..
+
+
+		- TWITTER BOOTSTRAP COMMANDS- 
+
+		- BUTTON LOOKS -
+		- <button type="button" class="btn btn-default">Default</button>
+		- <button type="button" class="btn btn-primary">Dark Blue</button>
+		- <button type="button" class="btn btn-success">Green</button>
+		- <button type="button" class="btn btn-info">Light Blue</button>
+		- <button type="button" class="btn btn-warning">Orange</button>
+		- <button type="button" class="btn btn-danger">Red</button>
+		- <button type="button" class="btn btn-link">Link</button>
+		
+		- BUTTON SIZE -
+		- <button type="button" class="btn btn-primary btn-lg">Large button</button>
+		- <button type="button" class="btn btn-primary btn-sm">Small button</button>
+		- <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+
+		- ALSO ADDABLE -
+		- <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+		- <button type="button" class="btn btn-primary btn-lg active">Primary button</button>
+		 
+		- FOR IMAGES -
+		- <img scr="..." alt="..." class="img-rounded">
+		- <img scr="..." alt="..." class="img-circle">
+		- <img scr="..." alt="..." class="img-thumbnail">
+
+		- TEXT LOOKS -
+		- <p class="text-muted">...</p>
+		- <p class="text-primary">...</p>
+		- <p class="text-success">...</p>
+		- <p class="text-info">...</p>
+		- <p class="text-warning">...</p>
+		- <p class="text-danger">...</p>
+				
+		- CONTEXT COLOR -
+		- <p class="bg-primary">...</p>
+		- <p class="bg-success">...</p>
+		- <p class="bg-info">...</p>
+		- <p class="bg-warning">...</p>
+		- <p class="bg-danger">...</p>
+
+		- HORIZONTAL DESCRIPTION -
+		- <dl class="dl-horizontal">
+		- 	<dt>Thing u want to discribe</dt>
+		- 	<dd>Description</dd>
+		- </dl>	
+
+		- VERTICAL DESCRIPTION -
+		- <dl>
+		-	<dt>...</dt>
+		-	<dd>...</dd>
+		- </dl>
+
+		- INCREASING NUMBERS INFRONT OF OBJECTS -
+		- <ol>
+		-	<li>...</li>
+		-	<li>...</li>
+		- </ol>
+
+		- BLOCKQUOTE ALIGN LEFT -
+		- <blockquote>
+		- 	<p>...</p>
+		- </blockquote>
+
+		- BLOCKQUOTE ALIGN LEFT WITH SMALLER TEXT UNDERNEATH -
+		- <blockquote>
+		- 	<p>...</p>
+		- 	<footer>...</footer>
+		- </blockquote
+		
+		- BLOCKQUOTE ALIGN RIGHT WITH SMALLER TEXT UNDERNEATH -
+		- <blockquote class="blockquote-reverse">
+		- 	<p>...</p>
+		- 	<footer>...</footer>
+		- </blockquote>
+
+		- TEXTAREA -
+		- <textarea class="form-control" rows="3"></textarea>
+
+		- DROPDOWN BOX -
+		- <select class="form-control">
+		-	<option>...</option>
+		-	<option>...</option>
+		-	<option>...</option>
+		-	<option>...</option>
+		- 	<option>...</option>
+		- </select>
+
+		- SCROLLING DROPDOWN BOX -
+		-<select multiple class="form-control">
+		-	<option>1</option>
+		-	<option>2</option>
+		-	<option>3</option>
+		-	<option>4</option>
+		-	<option>5</option>
+		- </select>
+
+		- INPUT WITH SUCCESS -
+		- <div class="form-group has-success">
+		-	<label class="control-label" for="inputSuccess1">Input with success</label>
+		-	<input type="text" class="form-control" id="inputSuccess1">
+		- </div>
+
+		- INPUT WITH WARNING -
+		- <div class="form-group has-warning">
+		-	<label class="control-label" for="inputWarning1">Input with warning</label>
+		-	<input type="text" class="form-control" id="inputWarning1">
+		- </div>
+
+		- INPUT WITH ERROR -
+		- <div class="form-group has-error">
+		-	<label class="control-label" for="inputError1">Input with error</label>
+		-	<input type="text" class="form-control" id="inputError1">
+		- </div>
+
+		- INPUT WITH SUCCES AND ICON -
+		- <div class="form-group has-success has-feedback">
+		-	<label class="control-label" for="inputSuccess2">Input with success</label>
+		-	<input type="text" class="form-control" id="inputSuccess2">
+		-	<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+		- </div>
+
+		- INPUT WITH WARNING AND ICON -
+		- <div class="form-group has-warning has-feedback">
+		-	<label class="control-label" for="inputWarning2">Input with warning</label>
+		-	<input type="text" class="form-control" id="inputWarning2">
+		-	<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+		- </div>
+
+		- INPUT WITH ERROR -
+		-<div class="form-group has-error has-feedback">
+		-	<label class="control-label" for="inputError2">Input with error</label>
+		-	<input type="text" class="form-control" id="inputError2">
+		-	<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+		- </div>
+
+		- FILE INPUT -
+		- <div class="form-group">
+		-	<label for="exampleInputFile">File input</label>
+		-	<input type="file" id="exampleInputFile">
+		-	<p class="help-block">Example block-level help text here.</p>
+		- </div>
+
+		- CHECK BOX - 
+		- <div class="checkbox">
+		-	<label>
+	 	-		<input type="checkbox"> Check me out
+		-	</label>
+		- </div>
+
+		- FOR MORE GO TO HTTP://GETBOOTSTRAP.COM/CSS/#FORMS -

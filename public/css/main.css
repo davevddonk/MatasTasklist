@@ -1,0 +1,104 @@
+body{
+	width: 95%;
+	/*width: 100%; menu on the side*/
+	margin: auto;
+	font-size: 18px;
+	padding-top: 70px;
+}
+
+.fault-warning{
+	width: 16em;
+}
+
+.title{
+	font-size: 42px;
+    line-height: 63px;
+	color: darkblue;
+	font-family: YanoneKaffeesatzRegular,Arial,Verdana;
+}
+textarea {
+    resize: none;
+}
+
+.menu{
+	width: 12%;
+	position: absolute;
+}
+
+.matas-bv{
+	width: 940px;
+	height: 440px;
+	margin: auto;
+	position: relative;
+}
+.container{
+	position: absolute;
+	/*width:  88%; menu on the side*/
+	width: 95%;
+	/*margin-left: 12%;*/
+}
+
+.mainContainer{
+	position: absolute;
+	width:  56%;
+	margin-left: 20%;
+}
+
+.incorrect{
+	background: #d9534f;
+	color: #222;
+	width: 30%;
+}
+
+.navigationBar{
+/*	width: 95%;
+	margin: auto;*/
+}
+.userCridentials{
+	position: absolute;
+	left: 12em;
+	top: 1%;
+}
+
+.search-form {
+	margin: 15px 0;
+}
+
+.steam{
+	color: black;
+}
+.youtube{
+	color: red;
+}
+.twitch{
+	color: #330066;
+}
+
+
+/*
+	//alert padding
+	cerulean.css/ cosmo.css/ cyborg.css/ darkly.css/ flatly.css/ journal.css/ lumen.css/
+	paper.css/ readable.css/ simplex.css/ slate.css/ spacelab.css/ united.css
+	-4599
+	-4078
+
+	cerulean.css
+	-906
+
+	cosmo.css
+	-907
+
+
+	Bootstrap.css
+ 	-1213
+ 	-1214
+ 	-4601
+ 	-4602
+
+	united.css
+	-907
+
+	paper.css/ readable.css/ slate.css
+	-894
+
+*/
