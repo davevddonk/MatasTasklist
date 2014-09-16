@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 Route::get('/', ['as' => 'pages.index', 'uses' => 'PagesController@index']);
 
 Route::post('/', ['as' => 'session.store', 'uses' => 'SessionController@store']);
